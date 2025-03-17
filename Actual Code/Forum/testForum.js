@@ -1,4 +1,4 @@
-import "./firebaseConfig";
+import "../firebaseConfig";
 import React, { useContext, useEffect, useState } from "react";
 import {
   View,
@@ -17,16 +17,16 @@ import {
 } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import storage from "@react-native-firebase/storage";
-import { heightScale, styles, widthScale } from "./Home";
+import { heightScale, styles, widthScale } from "../Home";
 import {
   FIREBASE_APP_MOBILE,
   FIREBASE_DB,
   FIREBASE_STORAGE,
   FIREBASE_STORAGEREF,
-} from "./firebaseConfig";
+} from "../firebaseConfig";
 import { arrayUnion, doc, getDoc, serverTimestamp, updateDoc } from "firebase/firestore";
 import { getStorage, ref, uploadBytes } from "firebase/storage";
-import { UserContext } from "./usercontextslave";
+import { UserContext } from "../usercontextslave";
 import firestore from "@react-native-firebase/firestore";
 import { firebase } from "@react-native-firebase/auth";
 import { useFonts } from "expo-font";

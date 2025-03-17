@@ -15,15 +15,15 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import { Entypo } from "@expo/vector-icons";
 
-import ForumPage from "./forum";
+import ForumPage from "./Forum/forum";
 import Login from "./Login";
 import { UserContext } from "./usercontextslave";
 import React, { useContext, useEffect, useState } from "react";
 import MainISSNav from "./ISS";
-import Consult from "./Consult";
+import Consult from "./Consultation/Consult";
 
 import { useFonts } from "expo-font";
-import ForumHomePage from "./testForum";
+import ForumHomePage from "./Forum/testForum";
 import { func } from "prop-types";
 const platform = Platform.OS;
 

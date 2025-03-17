@@ -15,7 +15,7 @@ import {
 import { useFonts } from "expo-font";
 import { Picker } from "@react-native-picker/picker";
 import { send, EmailJSResponseStatus } from "@emailjs/react-native";
-import { UserContext } from "./usercontextslave";
+import { UserContext } from "../usercontextslave";
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 

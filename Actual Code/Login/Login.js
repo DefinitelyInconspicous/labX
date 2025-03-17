@@ -14,7 +14,7 @@ import {
 } from "firebase/auth";
 import { View, Text, Button, Platform, SafeAreaView } from "react-native";
 
-import { UserContext } from "./usercontextslave";
+import { UserContext } from "../usercontextslave";
 import auth, { firebase } from "@react-native-firebase/auth";
 
 import {
@@ -22,7 +22,7 @@ import {
   GoogleSigninButton,
   statusCodes,
 } from "@react-native-google-signin/google-signin";
-import { styles } from "./Home";
+import { styles } from "../Home";
 
 
 const platform = Platform.OS;

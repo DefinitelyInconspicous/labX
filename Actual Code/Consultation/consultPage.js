@@ -16,7 +16,7 @@ import {
 import { useFonts } from "expo-font";
 import { Picker } from "@react-native-picker/picker";
 import { send, EmailJSResponseStatus } from "@emailjs/react-native";
-import { UserContext } from "./usercontextslave";
+import { UserContext } from "../usercontextslave";
 
 import DateAndTime from "@react-native-community/datetimepicker";
 import DropDownPicker from 'react-native-dropdown-picker'

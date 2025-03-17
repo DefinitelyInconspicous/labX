@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View, Text, TextInput, Button, FlatList, StyleSheet } from "react-native";
 import MultiSelect from "react-native-multiple-select";
 
-import { UserContext } from "./usercontextslave";
+import { UserContext } from "../usercontextslave";
 
 let id = 0;
 class message {
